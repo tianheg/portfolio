@@ -56,7 +56,7 @@ export default {
 
     const rssAxios = this.axios.get(`${apiUrl}/?source=feedly|inoreader|feedsPub&queryKey=${rssUrl}`)
     const twitterAxios = this.axios.get(`${apiUrl}/?source=twitter&queryKey=yidajiabei`)
-    const githubAxios = this.axios.get(`${apiUrl}/?source=github&queryKey=yidajiabei`)
+    const githubAxios = this.axios.get(`${apiUrl}/?source=github&queryKey=tianheg`)
     const telegramAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=yidajiabei`)
 
     rssAxios.then(r => {
@@ -67,9 +67,6 @@ export default {
     })
     githubAxios.then(r => {
       this.github = { data: r.data.data.totalSubs, loading: false }
-    })
-    telegramAxios.then(r => {
-      this.telegram = { data: r.data.data.totalSubs, loading: false }
     })
   },
 }

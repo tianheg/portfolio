@@ -2,58 +2,38 @@
   <div class="container">
     <div id="name-container">
       <img id="avatar" src="./../assets/images/av.png" alt="avatar" />
-      <h1>Spencer Woo</h1>
+      <h1>Jimgao</h1>
     </div>
     <div class="title-desc-container">
-      <a id="github" href="https://github.com/spencerwooo" target="_blank" rel="noopener noreferrer"
+      <a id="github" href="https://github.com/tianheg" target="_blank" rel="noopener noreferrer"
         ><img class="title-font" src="./../assets/images/github.svg" />Developer</a
       >
       <span>/</span>
-      <a id="sspai" href="https://sspai.com/u/spencerwoo/posts" target="_blank" rel="noopener noreferrer"
-        ><img class="title-font" src="./../assets/images/sspai.svg" />Writer</a
-      >
-      <span>/</span>
-      <a id="blog" href="https://blog.spencerwoo.com" target="_blank" rel="noopener noreferrer"
+      <a id="blog" href="https://blog.yidajiabei.xyz" target="_blank" rel="noopener noreferrer"
         ><img class="title-font" src="./../assets/images/zeit.svg" />Blogger</a
       >
     </div>
     <div class="article">
       <h2>WHO AM I</h2>
       <p>
-        I'm <i>Spencer Woo</i> with the ID <i>spencerwoo</i>. Some other variations:
-        <a href="https://twitter.com/realSpencerWoo" target="_blank" rel="noopener noreferrer">@realSpencerWoo</a> /
-        <a href="https://weibo.com/spencerwoo" target="_blank" rel="noopener noreferrer">@SpencerWoo</a> /
-        <a href="https://github.com/spencerwooo" target="_blank" rel="noopener noreferrer">@spencerwooo</a>. You may
-        know me from GitHub / Jike / SSPAI or other places. Yes, those are also me.
+        I'm <i>Jimgao</i> with the ID <i>yidajiabei</i>. Some other variations: <a href="https://github.com/tianheg" target="_blank" rel="noopener noreferrer">@tianheg</a>. You may
+        know me from GitHub or other places. Yes, those are also me.
       </p>
 
       <h2>Academics</h2>
       <ul>
         <li>
-          🍭 Fresh graduate at 🇨🇳
-          <a href="http://www.bit.edu.cn/" target="_blank" rel="noopener noreferrer">Beijing Institute of Technology</a
-          >, <i>BSc in Computer Science</i>. Currently a research assistant at Data & AI security Lab, BIT.
+          🙇 Not graduate at 🇨🇳
+          <a href="http://www.lnpu.edu.cn/" target="_blank" rel="noopener noreferrer">Liaoning University of Petroleum and Chemical Technology</a
+          >, <i>BE in Electronic and Information Engineering</i>.
         </li>
-        <li>
-          🙇 Prospective student at 🇬🇧
-          <a href="https://www.gla.ac.uk/" target="_blank" rel="noopener noreferrer">the University of Glasgow</a>,
-          1/2021 entry,
-          <i
-            ><a
-              href="https://www.gla.ac.uk/postgraduate/taught/computingsciencemsc/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >MSc in Computing Science</a
-            ></i
-          >.
-        </li>
-        <li>🔭 <b>Fields of interest:</b> Adversarial attacks / Image classification / AI security.</li>
+        <li>🔭 <b>Fields of interest:</b> CyberSecurity / Web Application.</li>
       </ul>
 
       <h2>Devices</h2>
       <ul>
-        <li>ThinkPad X1 Carbon 7th Gen</li>
-        <li>iPhone XR / iPad Air 3 / AirPods Pro</li>
+        <li>HP Notebook - 14s-cr0006tx / document: <a href="https://support.hp.com/us-en/document/c06002209">en</a> &bull; <a href="https://support.hp.com/cn-zh/document/c06002212">cn</a></li> 
+        <li>vivo y85</li>
       </ul>
 
       <h2>How can we trust you!</h2>
@@ -61,27 +41,20 @@
         I have verified my identity with a GPG signature which proves my ownership of this domain. (See the cryptography
         proof here:
         <a
-          href="http://keybase.io/spencerwoo/sigchain#abb6f40f8c804e7411e91544b7cdb8e011df8e6f84dcd0b709f848f85dc6248d0f"
+          https://keybase.io/yidajiabei/sigchain#d779cd2e9218b1a81f56f15007196fa0484e70d7145b390dadd62038e44f58500f"
           target="_blank"
           rel="noopener noreferrer"
-          >Keybase - claimed ownership of <b>spencerwoo.com</b> via dns</a
+          >Keybase - claimed ownership of <b>www.yidajiabei.xyz</b> via dns</a
         >.) In other words, <i>I AM LEGIT HERE.</i>
       </p>
       <p>
         I have my GPG public key hosted on
-        <a href="http://keybase.io/spencerwoo" target="_blank" rel="noopener noreferrer">Keybase - spencerwoo</a>. You
+        <a href="http://keybase.io/yidajiabei" target="_blank" rel="noopener noreferrer">Keybase - Jimgao</a>. You
         can pull and import my GPG public key with:
       </p>
-      <pre>curl https://keybase.io/spencerwoo/pgp_keys.asc | gpg --import</pre>
+      <pre>curl https://keybase.io/yidajiabei/pgp_keys.asc | gpg --import</pre>
       <p>
-        Why am I being so cautious?
-        <a
-          href="https://blog.spencerwoo.com/2020/08/wait-this-is-not-my-commit/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >BECAUSE I WAS IMPERSONATED ON GITHUB!!!</a
-        >
-        So, if you see a commit on GitHub which is linked to my username / account / email,
+        If you see a commit on GitHub which is linked to my username / account / email,
         <b>please keep in mind that it may not actually be me!</b> (Unless it shows a green <code>verified</code> badge,
         which means that I have signed the commit with my GPG private key, claiming the authorship of the commit.)
       </p>
@@ -90,7 +63,7 @@
       <ul>
         <li>
           <b>Email：</b>
-          <a href="mailto:spencer.wushangbo@gmail.com">spencer.wushangbo#gmail.com</a><i> (Preferred)</i>
+          <a href="mailto:yidajiabei@gmail.com">yidajiabei#gmail.com</a><i> (Preferred)</i>
         </li>
       </ul>
     </div>

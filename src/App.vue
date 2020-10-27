@@ -11,8 +11,7 @@
         <p>
           Built with ♥ and
           <a href="https://vuejs.org/">Vue.js</a>. Proudly deployed on
-          <a href="https://vercel.com/spencerwoo/home">Vercel</a> with APIs hosted on
-          <a href="https://www.cloudflare.com/">Cloudflare</a>.
+          <a href="https://vercel.com">Vercel</a>.
         </p>
         <p>
           Designed, coded, and deployed from scratch by Spencer Woo. Open source on
@@ -22,7 +21,7 @@
           Viewed by you guys for a total of
           <span id="busuanzi_value_site_pv"></span> times ♥
         </p>
-        <p id="footer-copyright">©2019 - {{ getYear() }} Spencer Woo</p>
+        <p id="footer-copyright">©2020 - {{ getYear() }} Jimgao</p>
       </div>
     </div>
   </div>

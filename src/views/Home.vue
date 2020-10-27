@@ -40,11 +40,10 @@
       <p>
         I have verified my identity with a GPG signature which proves my ownership of this domain. (See the cryptography
         proof here:
-        <a
-          https://keybase.io/yidajiabei/sigchain#d779cd2e9218b1a81f56f15007196fa0484e70d7145b390dadd62038e44f58500f"
+        <a href="https://keybase.io/yidajiabei/sigchain#d779cd2e9218b1a81f56f15007196fa0484e70d7145b390dadd62038e44f58500f"
           target="_blank"
           rel="noopener noreferrer"
-          >Keybase - claimed ownership of <b>www.yidajiabei.xyz</b> via dns</a
+          >Keybase - claimed ownership of <b>yidajiabei.xyz</b> via dns</a
         >.) In other words, <i>I AM LEGIT HERE.</i>
       </p>
       <p>

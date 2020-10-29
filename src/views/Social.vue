@@ -68,6 +68,9 @@ export default {
     githubAxios.then(r => {
       this.github = { data: r.data.data.totalSubs, loading: false }
     })
+    telegramAxios.then(r => {
+      this.telegram = { data: r.data.data.totalSubs, loading: false }
+    })
   },
 }
 </script>

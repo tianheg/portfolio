@@ -11,7 +11,7 @@
         <p>
           Built with ♥ and
           <a href="https://vuejs.org/">Vue.js</a>. Proudly deployed on
-          <a href="https://vercel.com">Vercel</a>.
+          <a href="https://www.netlify.com/">Netlify</a>.
         </p>
         <p>
           Designed, coded, and deployed from scratch by Spencer Woo. Open source on

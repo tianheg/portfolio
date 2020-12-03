@@ -114,10 +114,6 @@
   color: #24292e;
 }
 
-.title-desc-container #sspai {
-  color: #ca2c2a;
-}
-
 .title-desc-container #blog {
   color: #0070f3;
 }

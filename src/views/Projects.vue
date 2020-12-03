@@ -4,12 +4,30 @@
     <p>Projects I participated in and/or developed.</p>
 
     <GitHubCard
+      title="Wiki"
+      link="https://github.com/tianheg/wiki"
+      :info="wikiInfo"
+      :loading="loading"
+    >
+      <p>I freaking can't believe it that this is my most starred project...</p>
+    </GitHubCard>
+
+    <GitHubCard
+      title="Note"
+      link="https://github.com/tianheg/wiki"
+      :info="noteInfo"
+      :loading="loading"
+    >
+      <p>What I think, read, watch, listen</p>
+    </GitHubCard>
+
+    <GitHubCard
       title="💻 My dotfiles"
       link="https://github.com/tianheg/dotfiles"
       :info="dotfilesInfo"
       :loading="loading"
     >
-      <p>I freaking can't believe it that this is my most starred project...</p>
+      <p>Store my configuration about bash, zsh, vscode, and so on</p>
     </GitHubCard>
   </div>
 </template>
@@ -24,19 +42,11 @@ export default {
   data() {
     return {
       loading: true,
-      dowwwInfo: {
+      wikiInfo: {
         stargazers_count: 0,
         forks_count: 0,
       },
-      substatsInfo: {
-        stargazers_count: 0,
-        forks_count: 0,
-      },
-      bithesisInfo: {
-        stargazers_count: 0,
-        forks_count: 0,
-      },
-      fatesInfo: {
+      noteInfo: {
         stargazers_count: 0,
         forks_count: 0,
       },
@@ -49,14 +59,18 @@ export default {
   mounted() {
     const githubApiUrl = 'https://api.github.com/repos'
 
+    const wikiAxios = this.axios.get(`${githubApiUrl}/tianheg/wiki`)
+    const noteAxios = this.axios.get(`${githubApiUrl}/tianheg/note`)
     const dotfilesAxios = this.axios.get(`${githubApiUrl}/tianheg/dotfiles`)
 
     this.axios
-      .all([dotfilesAxios])
+      .all([wikiAxios, noteAxios, dotfilesAxios])
       .then(
         this.axios.spread((...resp) => {
           this.loading = false
-          this.dotfilesInfo = resp[0].data
+          this.wikiInfo = resp[0].data
+          this.noteInfo = resp[1].data
+          this.dotfilesInfo = resp[2].data
         }),
       )
       .catch(err => {

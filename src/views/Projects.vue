@@ -14,7 +14,7 @@
 
     <GitHubCard
       title="Note"
-      link="https://github.com/tianheg/wiki"
+      link="https://github.com/tianheg/note"
       :info="noteInfo"
       :loading="loading"
     >
@@ -22,12 +22,12 @@
     </GitHubCard>
 
     <GitHubCard
-      title="💻 My dotfiles"
-      link="https://github.com/tianheg/dotfiles"
-      :info="dotfilesInfo"
+      title="Config"
+      link="https://github.com/tianheg/config"
+      :info="configInfo"
       :loading="loading"
     >
-      <p>Store my configuration about bash, zsh, vscode, and so on</p>
+      <p>Config files about git, zsh, vscode, and so on</p>
     </GitHubCard>
   </div>
 </template>
@@ -50,7 +50,7 @@ export default {
         stargazers_count: 0,
         forks_count: 0,
       },
-      dotfilesInfo: {
+      configInfo: {
         stargazers_count: 0,
         forks_count: 0,
       },
@@ -61,16 +61,16 @@ export default {
 
     const wikiAxios = this.axios.get(`${githubApiUrl}/tianheg/wiki`)
     const noteAxios = this.axios.get(`${githubApiUrl}/tianheg/note`)
-    const dotfilesAxios = this.axios.get(`${githubApiUrl}/tianheg/dotfiles`)
+    const configAxios = this.axios.get(`${githubApiUrl}/tianheg/config`)
 
     this.axios
-      .all([wikiAxios, noteAxios, dotfilesAxios])
+      .all([wikiAxios, noteAxios, configAxios])
       .then(
         this.axios.spread((...resp) => {
           this.loading = false
           this.wikiInfo = resp[0].data
           this.noteInfo = resp[1].data
-          this.dotfilesInfo = resp[2].data
+          this.configInfo = resp[2].data
         }),
       )
       .catch(err => {

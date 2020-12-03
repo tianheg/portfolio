@@ -51,11 +51,6 @@ export default {
             text: 'PROJECTS',
             path: '/projects',
           },
-          {
-            type: 'link',
-            text: 'SOCIAL',
-            path: '/social',
-          },
         ],
       },
     }

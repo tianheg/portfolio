@@ -4,7 +4,6 @@ import VueRouter from 'vue-router'
 
 import Home from './views/Home.vue'
 import Projects from './views/Projects.vue'
-import Social from './views/Social.vue'
 import NotFound from './views/NotFound.vue'
 
 import './assets/styles/base.css'
@@ -29,8 +28,6 @@ const router = new VueRouter({
   routes: [
     { path: '/', component: Home },
     { path: '/projects', component: Projects },
-    { path: '/social', component: Social },
-
     // Not found
     { path: '/*', component: NotFound }
   ]

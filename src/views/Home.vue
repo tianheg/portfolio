@@ -2,7 +2,7 @@
   <div class="container">
     <div id="name-container">
       <img id="avatar" src="./../assets/images/av.png" alt="avatar" />
-      <h1>Jimgao</h1>
+      <h1>tianheg</h1>
     </div>
     <div class="title-desc-container">
       <a id="github" href="https://github.com/tianheg" target="_blank" rel="noopener noreferrer"
@@ -16,7 +16,7 @@
     <div class="article">
       <h2>WHO AM I</h2>
       <p>
-        I'm <i>Jimgao</i> with the ID <i>yidajiabei</i>. Some other variations: <a href="https://github.com/tianheg" target="_blank" rel="noopener noreferrer">@tianheg</a>. You may
+        I'm <i>tianheg</i>. Some other variations: <a href="https://github.com/tianheg" target="_blank" rel="noopener noreferrer">@tianheg</a>. You may
         know me from GitHub or other places. Yes, those are also me.
       </p>
 
@@ -48,7 +48,7 @@
       </p>
       <p>
         I have my GPG public key hosted on
-        <a href="http://keybase.io/yidajiabei" target="_blank" rel="noopener noreferrer">Keybase - Jimgao</a>. You
+        <a href="http://keybase.io/yidajiabei" target="_blank" rel="noopener noreferrer">Keybase - tianheg</a>. You
         can pull and import my GPG public key with:
       </p>
       <pre>curl https://keybase.io/yidajiabei/pgp_keys.asc | gpg --import</pre>

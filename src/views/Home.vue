@@ -16,8 +16,7 @@
     <div class="article">
       <h2>WHO AM I</h2>
       <p>
-        I'm <i>tianheg</i>. Some other variations: <a href="https://github.com/tianheg" target="_blank" rel="noopener noreferrer">@tianheg</a>. You may
-        know me from GitHub or other places. Yes, those are also me.
+        I'm <i>tianheg</i>. You may know me from GitHub or other places.
       </p>
 
       <h2>Academics</h2>

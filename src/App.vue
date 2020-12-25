@@ -21,7 +21,7 @@
           Viewed by you guys for a total of
           <span id="busuanzi_value_site_pv"></span> times ♥
         </p>
-        <p id="footer-copyright">©{{ getYear() }} Jimgao</p>
+        <p id="footer-copyright">©{{ getYear() }} tianheg</p>
       </div>
     </div>
   </div>

@@ -3,7 +3,6 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 
 import Home from './views/Home.vue'
-import Projects from './views/Projects.vue'
 import NotFound from './views/NotFound.vue'
 
 import './assets/styles/base.css'
@@ -27,7 +26,6 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes: [
     { path: '/', component: Home },
-    { path: '/projects', component: Projects },
     // Not found
     { path: '/*', component: NotFound }
   ]

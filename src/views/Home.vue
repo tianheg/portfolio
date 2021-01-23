@@ -6,11 +6,15 @@
     </div>
     <div class="title-desc-container">
       <a id="github" href="https://github.com/tianheg" target="_blank" rel="noopener noreferrer"
-        ><img class="title-font" src="./../assets/images/github.svg" />Developer</a
+        ><img class="title-font" src="./../assets/images/github.svg" />Develop</a
       >
       <span>/</span>
       <a id="blog" href="https://blog.yidajiabei.xyz" target="_blank" rel="noopener noreferrer"
-        ><img class="title-font" src="./../assets/images/zeit.svg" />Blogger</a
+        ><img class="title-font" src="./../assets/images/zeit.svg" />Blog</a
+      >
+      <span>/</span>
+      <a id="projects" href="https://projects.yidajiabei.xyz" target="_blank" rel="noopener noreferrer"
+        ><img class="title-font" src="./../assets/images/projects.svg" />Projects</a
       >
     </div>
     <div class="article">
@@ -115,5 +119,9 @@
 
 .title-desc-container #blog {
   color: #0070f3;
+}
+
+.title-desc-container #projects {
+  color: #331a00;
 }
 </style>

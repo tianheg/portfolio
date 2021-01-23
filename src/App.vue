@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <vue-navigation-bar :options="navbarOptions" />
-
     <transition name="fade" mode="out-in">
       <router-view />
     </transition>
@@ -45,11 +43,6 @@ export default {
             type: 'link',
             text: 'HOME',
             path: '/',
-          },
-          {
-            type: 'link',
-            text: 'PROJECTS',
-            path: '/projects',
           },
         ],
       },

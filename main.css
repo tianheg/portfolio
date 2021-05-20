@@ -95,3 +95,13 @@ a:hover {
     animation: octocat-wave 560ms ease-in-out
   }
 }
+
+footer {
+  width: 100%;
+  text-align: center;
+  line-height: 2.0rem;
+  margin-bottom: 1.0rem;
+}
+a {
+    color: #666666;
+}

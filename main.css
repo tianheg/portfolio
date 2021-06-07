@@ -106,7 +106,8 @@ footer {
   width: 100%;
   text-align: center;
   line-height: 2rem;
-  padding: -3;
+  position: absolute;
+  bottom: 0;
 }
 
 footer a {

@@ -4,4 +4,3 @@
 - <https://memo.yidajiabei.xyz/>
 - <https://good.yidajiabei.xyz/>
 - <https://feed.yidajiabei.xyz/>
-- <https://codebin.yidajiabei.xyz/>

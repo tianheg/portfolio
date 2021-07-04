@@ -5,12 +5,12 @@ body {
 
 @font-face {
   font-family: "Oleo Script Swash Caps";
-  src: url(./assets/fonts/OleoScriptSwashCaps-Regular.woff2);
+  src: url(./assets/fonts/OleoScriptSwashCaps-Regular.woff2) format('woff2');
 }
 
 @font-face {
   font-family: "Oleo Script";
-  src: url(./assets/fonts/OleoScript-Regular.woff2);
+  src: url(./assets/fonts/OleoScript-Regular.woff2) format('woff2');
 }
 
 body {

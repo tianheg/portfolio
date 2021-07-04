@@ -3,6 +3,16 @@ body {
   height: 100%;
 }
 
+@font-face {
+  font-family: "Oleo Script Swash Caps";
+  src: url(./assets/fonts/OleoScriptSwashCaps-Regular.woff2);
+}
+
+@font-face {
+  font-family: "Oleo Script";
+  src: url(./assets/fonts/OleoScript-Regular.woff2);
+}
+
 body {
   background-color: #f7fafc;
   font-family: sans-serif;
